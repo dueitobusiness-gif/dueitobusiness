@@ -562,7 +562,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "hero-description1": "ORGANIC GROWTH | MERGER & ACQUISITIONS",
       "hero-description2": "A MODEL OF OPERATIONAL MANAGEMENT",
       "hero-description3":
-        "EXECUTIVE INTERIM MANAGEMENT ON A FRACTIONAL TIME BASIS<br />CEO INTERFACE | GENERATIONAL TRANSITION | COO ROLE ENABLEMENT",
+        "EXECUTIVE INTERIM MANAGEMENT ON A FRACTIONAL TIME BASIS<br />CEO INTERFACE | GENERATIONAL TRANSITION | COO ROLE",
       "btn-appointment": "Contact Us",
       "btn-services": "Our Services",
       "btn-portfolio": "IIC UAE ADVISOR",
