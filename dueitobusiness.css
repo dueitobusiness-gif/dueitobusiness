@@ -1630,6 +1630,58 @@ img {
   transform: translateY(-5px);
 }
 
+/* Banner per servizi non disponibili */
+.unavailable-ribbon {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+  color: white;
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: -2rem -2rem 1rem -2rem;
+  border-radius: 12px 12px 0 0;
+  width: calc(100% + 4rem);
+}
+
+/* Ribbon angolare per approfondimenti servizi non disponibili */
+.service-badge-ribbon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+  color: white;
+  padding: 8px 16px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  white-space: nowrap;
+  border-radius: 4px;
+}
+
+/* Mobile: ribbon non sovrapposto */
+@media (max-width: 768px) {
+  .service-badge-ribbon {
+    position: static;
+    display: inline-block;
+    margin-bottom: 12px;
+    top: auto;
+    right: auto;
+  }
+}
+
+.service-detail-content {
+  position: relative;
+}
+
+.service-card {
+  position: relative;
+}
+
 @media (min-width: 1400px) {
   .contact-form-centered {
     max-width: 800px; /* Aumenta da 600px a 800px */

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
   <head>
     <link rel="canonical" href="https://www.dueitobusiness.com/" />
@@ -389,7 +389,11 @@
               src="assets/logoDubaiTagliato.png"
               alt="Secondo Logo"
               class="hero-secondary-logo"
-              onclick="document.getElementById('iic-uae-connector').scrollIntoView({behavior: 'smooth'})"
+              onclick="
+                document
+                  .getElementById('iic-uae-connector')
+                  .scrollIntoView({ behavior: 'smooth' })
+              "
             />
           </div>
         </div>
@@ -555,7 +559,11 @@
             <button
               class="btn btn-white"
               data-translate="break-btn-2"
-              onclick="document.getElementById('settori').scrollIntoView({behavior: 'smooth'})"
+              onclick="
+                document
+                  .getElementById('settori')
+                  .scrollIntoView({ behavior: 'smooth' })
+              "
             >
               Scopri Settori e Progetti
             </button>
@@ -639,6 +647,7 @@
                 data-service="Check Up Operativo"
                 onclick="scrollToService('checkup-operativo')"
               >
+                <div class="unavailable-ribbon">Non Più Disponibile</div>
                 <h3 data-translate="service-1-title">CHECK UP OPERATIVO</h3>
                 <p data-translate="service-1-desc">
                   CHIEF OPERATING OFFICER EXECUTIVE INTERIM MANAGEMENT<br /><br />Sviluppo
@@ -678,6 +687,7 @@
                 data-service="Partnership Logistica"
                 onclick="scrollToService('partnership-logistica')"
               >
+                <div class="unavailable-ribbon">Non Più Disponibile</div>
                 <h3 data-translate="service-4-title">PARTNERSHIP LOGISTICA</h3>
                 <p data-translate="service-4-desc">
                   <br />GUIDA E SUPPORTO AD OPERAZIONI DI LOGISTICA INTEGRATA<br /><br />La
@@ -710,6 +720,7 @@
 
         <div class="service-detail" id="checkup-operativo">
           <div class="service-detail-content">
+            <div class="service-badge-ribbon">Non Disponibile</div>
             <h3 data-translate="service-1-title">CHECK UP OPERATIVO</h3>
             <h4 data-translate="service-1-subtitle">
               INTERIM CHIEF OPERATING OFFICER MANAGEMENT
@@ -999,7 +1010,11 @@
                     <button
                       class="discover-btn"
                       data-translate="discover-more"
-                      onclick="document.getElementById('contatti').scrollIntoView({behavior: 'smooth'})"
+                      onclick="
+                        document
+                          .getElementById('contatti')
+                          .scrollIntoView({ behavior: 'smooth' })
+                      "
                     >
                       BENCHMARKING<br /><br />ECCELLENZA OPERATIVA
                     </button>
@@ -1020,7 +1035,11 @@
                     <button
                       class="discover-btn"
                       data-translate="discover-more"
-                      onclick="document.getElementById('contatti').scrollIntoView({behavior: 'smooth'})"
+                      onclick="
+                        document
+                          .getElementById('contatti')
+                          .scrollIntoView({ behavior: 'smooth' })
+                      "
                     >
                       NET WORK PLURIENNALE<br /><br />CONOSCENZA DEL PRODOTTO
                     </button>
@@ -1051,7 +1070,11 @@
                     <button
                       class="discover-btn"
                       data-translate="discover-more"
-                      onclick="document.getElementById('contatti').scrollIntoView({behavior: 'smooth'})"
+                      onclick="
+                        document
+                          .getElementById('contatti')
+                          .scrollIntoView({ behavior: 'smooth' })
+                      "
                     >
                       LE TECNICHE DI DOWN DRILL | CONOSCENZA DEL PRODOTTO |
                       COMUNICAZIONE
@@ -1065,6 +1088,7 @@
 
         <div class="service-detail" id="partnership-logistica">
           <div class="service-detail-content">
+            <div class="service-badge-ribbon">Non Disponibile</div>
             <h3 data-translate="service-4-title">PARTNERSHIP LOGISTICA</h3>
             <h4 data-translate="service-4-subtitle">
               SERVIZIO DI PARTNERSHIP PER OPERATORI LOGISTICI DEL SETTORE FMCG
@@ -1208,7 +1232,11 @@
               <div style="text-align: center; margin-top: 2rem">
                 <button
                   class="btn btn-primary"
-                  onclick="document.getElementById('principi').scrollIntoView({behavior: 'smooth'})"
+                  onclick="
+                    document
+                      .getElementById('principi')
+                      .scrollIntoView({ behavior: 'smooth' })
+                  "
                   style="
                     padding: 15px 30px;
                     font-size: 1.1rem;
@@ -1288,7 +1316,11 @@
                 class="calendar-link"
                 data-translate="calendar-link"
                 style="margin-top: 2.3rem; text-align: center"
-                onclick="event.stopPropagation(); openGantt(); return false;"
+                onclick="
+                  event.stopPropagation();
+                  openGantt();
+                  return false;
+                "
               >
                 Visualizza calendario progetti 🗓️
               </a>
